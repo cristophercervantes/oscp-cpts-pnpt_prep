@@ -123,4 +123,4 @@ Everything in this repo is for **educational and ethical hacking purposes only**
 
 ---
 
-*Started: 2025 | Maintained by [@cristophercervantes](https://github.com/cristophercervantes)*
+*Started: 2026 | Maintained by [@cristophercervantes](https://github.com/cristophercervantes)*
