@@ -29,9 +29,9 @@ Everything feeds into each other. Learning Linux while also picking up Bash scri
 
 These are self-study modules. Resources are provided — the work is on me.
 
-| # | Topic | Platform / Resource |
+| # | Topic | Resource |
 |---|-------|-------------------|
-| 1 | Linux Fundamentals | [Hack The Box Academy](https://academy.hackthebox.com) |
+| 1 | Linux Fundamentals | [Start Learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Linux/1.%20Introduction%20to%20Linux.md) |
 | 2 | Windows Fundamentals | [Hack The Box Academy](https://academy.hackthebox.com) |
 | 3 | Cyber Security Intro & Terms | HTB — Information Security Path |
 | 4 | Web Basics | [Hack The Box Academy](https://academy.hackthebox.com) |
