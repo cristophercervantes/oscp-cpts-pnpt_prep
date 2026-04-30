@@ -54,7 +54,7 @@ Learn these alongside the fundamentals above. Don't wait until after — scripti
 Covers everything from basic shell syntax to writing real automation scripts. Essential for Linux-based pentesting work.
 
 ### PowerShell Scripting
-> Resource: [PowerShell Scripting Playlist — YouTube](https://www.youtube.com/playlist?list=PLEoK7C0HvDQmY9uz_uJo0BTCC2XzSUF1h)
+> Resource: [My own github repo](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/powershell/1.intro.md)
 
 Core skill for Windows environments and Active Directory attacks. Gets very relevant once you move into AD pentesting.
 
