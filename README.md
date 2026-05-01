@@ -35,7 +35,7 @@ These are self-study modules. Resources are provided — the work is on me.
 | 2 | Windows Fundamentals | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Windows/1.%20Introduction%20to%20Windows.md) |
 | 3 | Cyber Security Intro & Terms | HTB — Information Security Path |
 | 4 | Web Basics | [Hack The Box Academy](https://academy.hackthebox.com) |
-| 5 | Cryptography Basics | [Hacker Arise](https://www.hackers-arise.com) |
+| 5 | Cryptography Basics | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Cryptography/1.%20Introduction%20to%20Cryptography.md) |
 | 6 | Computer Networking | [Cisco Networking Academy](https://www.netacad.com) |
 | 7 | Windows Command Line | HTB Academy Module |
 | 8 | Network Packet Analysis | HTB Academy Module |
