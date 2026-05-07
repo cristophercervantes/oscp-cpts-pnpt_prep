@@ -247,3 +247,4 @@ All 10G standards defined under **IEEE 802.3ae**.
 |Connector|RJ-45 (cheap)|SFP transceiver (expensive)|
 |Best for|End hosts in same floor/building|Building-to-building, long distance|
 
+[Next: Day-3](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Networking/Day-3.md)
