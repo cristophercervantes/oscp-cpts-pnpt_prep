@@ -150,3 +150,4 @@ PC1 → SW1 → R1 → Internet → R2 → SW2 → SRV1
 PC1 ← SW1 ← R1 ← Internet ← R2 ← SW2 ← (sends file back)
 ```
 
+[Next: Day-2](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Networking/Day-2.md)
