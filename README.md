@@ -11,6 +11,7 @@ This is a living document. I'll keep updating it as I progress.
 - **OSCP** — Offensive Security Certified Professional
 - **CPTS** — Certified Penetration Testing Specialist (HTB)
 - **PNPT** — Practical Network Penetration Tester (TCM Security)
+- **CPENT** - Certified Penetration Testing Professional (EC-Council)
 
 ---
 
@@ -20,6 +21,7 @@ The plan is split into two parallel tracks that you need to work at the same tim
 
 1. **Core Fundamentals** — building the technical knowledge base
 2. **Scripting** — learning automation and tooling along the way
+3. **Real Pentest Begins** - Starting the official journey of Penetration Testing (Not parallel)
 
 Everything feeds into each other. Learning Linux while also picking up Bash scripting, learning Windows while getting comfortable with PowerShell — it makes the whole thing stick better.
 
@@ -61,6 +63,16 @@ Core skill for Windows environments and Active Directory attacks. Gets very rele
 
 ---
 
+## Phrase 3 - Penetration Testing
+
+Starting learning about real penetration testing step by step
+These are self-study modules. Resources are provided — the work is on me.
+
+| # | Topic | Resource |
+|---|-------|-------------------|
+| 1 | Penetration Testing Process | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Pentesting%20Process/1.%20Preparation%20and%20Basic.md) |
+
+
 ##  Repo Structure
 
 ```
@@ -78,7 +90,7 @@ oscp-cpts-pnpt_prep/
 │   └── powershell/
 │
 ├── Pentesting starts/
-│   └── (notes and methodologies about pentest from zero)
+│   ├── Penetration Testing Process/
 │
 └── README.md
 ```
@@ -95,10 +107,10 @@ oscp-cpts-pnpt_prep/
 | Windows Fundamentals | Completed |
 | Cyber Security Intro & Terms | Completed |
 | Web Basics | Completed |
-| Cryptography Basics | Completed |
-| Computer Networking | Completed|
+| Cryptography Basics | Ongoing |
+| Computer Networking | Ongoing|
 | Windows Command Line | Completed |
-| Network Packet Analysis | Completed |
+| Network Packet Analysis | Ongoing |
 | Bash Scripting | Ongoing |
 | PowerShell Scripting | Ongoing |
 
