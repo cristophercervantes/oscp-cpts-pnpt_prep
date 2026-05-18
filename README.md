@@ -71,6 +71,7 @@ These are self-study modules. Resources are provided — the work is on me.
 | # | Topic | Resource |
 |---|-------|-------------------|
 | 1 | Penetration Testing Process | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Pentesting%20Process/1.%20Preparation%20and%20Basic.md) |
+| 2 | Getting Started with Penetration Testing | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Getting%20Started%20with%20Penetration%20Testing/1.%20Pentesting%20Basic%201.md) |
 
 
 ##  Repo Structure
@@ -91,6 +92,7 @@ oscp-cpts-pnpt_prep/
 │
 ├── Pentesting starts/
 │   ├── Penetration Testing Process/
+│   ├── Getting Started with Penetration Testing
 │
 └── README.md
 ```
