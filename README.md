@@ -41,7 +41,7 @@ These are self-study modules. Resources are provided — the work is on me.
 | 6 | Computer Networking | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Networking/Day-1.md) |
 | 7 | Windows Command Line | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Windows%20Command%20Line/1.%20Introduction.md) |
 | 8 | Network Packet Analysis | HTB Academy Module |
-| 9 | OSINT | Coming |
+| 9 | OSINT | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/OSINT/1.%20Open%E2%80%90source%20intelligence%20evolution%20and%20basics/1.%20INTRODUCTION.md) |
 
 > Work through these in order if you're following along. Don't skip networking — it shows up everywhere.
 
