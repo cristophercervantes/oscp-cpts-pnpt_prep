@@ -1,141 +1,134 @@
-# OSCP / CPTS / PNPT Preparation
+# Breaking Into Pentesting — My Study Repo
 
-> My personal preparation repo for becoming a Junior Pentester. This covers everything I'm studying — notes, resources, scripts, and writeups — organized in the order I'm actually going through them.
+So I'm on a mission to become a Junior Pentester, and this is where I keep everything — notes I've written, resources I've actually used, scripts I've built, and writeups from machines I've rooted. Think of it less like a curriculum and more like a map of where I've been and where I'm going.
 
-This is a living document. I'll keep updating it as I progress.
-
----
-
-## Target Certifications
-
-- **OSCP** — Offensive Security Certified Professional
-- **CPTS** — Certified Penetration Testing Specialist (HTB)
-- **PNPT** — Practical Network Penetration Tester (TCM Security)
-- **CPENT** - Certified Penetration Testing Professional (EC-Council)
+This is very much a living thing. I update it as I go.
 
 ---
 
-## Roadmap
+## The Certs I'm Gunning For
 
-The plan is split into two parallel tracks that you need to work at the same time:
-
-1. **Core Fundamentals** — building the technical knowledge base
-2. **Scripting** — learning automation and tooling along the way
-3. **Real Pentest Begins** - Starting the official journey of Penetration Testing (Not parallel)
-
-Everything feeds into each other. Learning Linux while also picking up Bash scripting, learning Windows while getting comfortable with PowerShell — it makes the whole thing stick better.
+| Cert | Issuer | Why |
+|------|--------|-----|
+| **OSCP** | Offensive Security | The gold standard. Hands-on, brutal, worth it. |
+| **CPTS** | Hack The Box | Solid structured path, great for building methodology |
+| **PNPT** | TCM Security | Practical, realistic, and beginner-friendly |
+| **CPENT** | EC-Council | Rounding it out with enterprise-level coverage |
 
 ---
 
-## Phase 1 — Core Fundamentals
+## How I'm Approaching This
 
-These are self-study modules. Resources are provided — the work is on me.
+The plan is to run two tracks in parallel — fundamentals and scripting — before jumping into actual pentesting. You can't automate what you don't understand, and you can't understand what you can't navigate manually. So both run together.
 
-| # | Topic | Resource |
-|---|-------|-------------------|
-| 1 | Linux Fundamentals | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Linux/1.%20Introduction%20to%20Linux.md) |
-| 2 | Windows Fundamentals | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Windows/1.%20Introduction%20to%20Windows.md) |
-| 3 | Cyber Security Intro & Terms | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Cyber%20Security%20Terms%20and%20Basics/1.%20Basic%20Terms.md) |
-| 4 | Web Basics | [Hack The Box Academy](https://academy.hackthebox.com) |
-| 5 | Cryptography Basics | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Cryptography/1.%20Protecting%20Data%20in%20Motion%20or%20at%20Rest.md) |
-| 6 | Computer Networking | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Networking/Day-1.md) |
-| 7 | Windows Command Line | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Windows%20Command%20Line/1.%20Introduction.md) |
+```
+Track 1: Core Fundamentals  ──┐
+                               ├──▶  Phase 3: Real Pentesting
+Track 2: Scripting         ──┘
+```
+
+Honestly, learning Bash while doing Linux made both click way faster than doing them sequentially. Same deal with PowerShell and Windows. Do yourself a favor — don't skip scripting until later.
+
+---
+
+## Phase 1 — Building the Foundation
+
+Everything pentesting touches lives somewhere in these fundamentals. Don't rush through them. Networking especially — it shows up *everywhere*.
+
+| # | Topic | My Notes |
+|---|-------|----------|
+| 1 | Linux Fundamentals | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Linux/1.%20Introduction%20to%20Linux.md) |
+| 2 | Windows Fundamentals | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Windows/1.%20Introduction%20to%20Windows.md) |
+| 3 | Cyber Security Intro & Terms | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Cyber%20Security%20Terms%20and%20Basics/1.%20Basic%20Terms.md) |
+| 4 | Web Basics | [HTB Academy](https://academy.hackthebox.com) |
+| 5 | Cryptography Basics | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Cryptography/1.%20Protecting%20Data%20in%20Motion%20or%20at%20Rest.md) |
+| 6 | Computer Networking | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Networking/Day-1.md) |
+| 7 | Windows Command Line | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Windows%20Command%20Line/1.%20Introduction.md) |
 | 8 | Network Packet Analysis | HTB Academy Module |
-| 9 | OSINT | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/OSINT/1.%20Open%E2%80%90source%20intelligence%20evolution%20and%20basics/1.%20INTRODUCTION.md) |
-
-> Work through these in order if you're following along. Don't skip networking — it shows up everywhere.
+| 9 | OSINT | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/OSINT/1.%20Open%E2%80%90source%20intelligence%20evolution%20and%20basics/1.%20INTRODUCTION.md) |
 
 ---
 
-## Phase 2 (Parallel) — Scripting
+## Phase 2 — Scripting (Run This Alongside Phase 1)
 
-Learn these alongside the fundamentals above. Don't wait until after — scripting will make everything click faster.
+Don't treat scripting as an afterthought. Pick it up while you're doing fundamentals — it makes the technical stuff stick, and you'll start automating tedious stuff sooner than you think.
 
-### Bash Scripting
-> Resource: [Full Bash Scripting Course — YouTube](https://youtu.be/Sx9zG7wa4FA?si=KfV3cI-WtUPstnN9)
+### Bash
+I went through [this full course on YouTube](https://youtu.be/Sx9zG7wa4FA?si=KfV3cI-WtUPstnN9) — covers everything from basic syntax to writing real automation. Solid starting point for anyone on Linux.
 
-Covers everything from basic shell syntax to writing real automation scripts. Essential for Linux-based pentesting work.
-
-### PowerShell Scripting
-> Resource: [My own github repo](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/powershell/1.intro.md)
-
-Core skill for Windows environments and Active Directory attacks. Gets very relevant once you move into AD pentesting.
+### PowerShell
+[My own notes are here.](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/powershell/1.intro.md) Once you get into Active Directory attacks, PowerShell stops being optional. Get comfortable with it early.
 
 ---
 
-## Phrase 3 - Penetration Testing
+## Phase 3 — Actual Pentesting
 
-Starting learning about real penetration testing step by step
-These are self-study modules. Resources are provided — the work is on me.
+This is where things get real. Phases 1 and 2 feed directly into this. I'm going step by step, building methodology before tools.
 
-| # | Topic | Resource |
-|---|-------|-------------------|
-| 1 | Penetration Testing Process | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Pentesting%20Process/1.%20Preparation%20and%20Basic.md) |
-| 2 | Getting Started with Penetration Testing | [Start learning from here](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Getting%20Started%20with%20Penetration%20Testing/1.%20Pentesting%20Basic%201.md) |
+| # | Topic | My Notes |
+|---|-------|----------|
+| 1 | Penetration Testing Process | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Pentesting%20Process/1.%20Preparation%20and%20Basic.md) |
+| 2 | Getting Started with Pentesting | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Getting%20Started%20with%20Penetration%20Testing/1.%20Pentesting%20Basic%201.md) |
 
+---
 
-##  Repo Structure
+## Where I'm At Right Now
+
+| Topic | Status |
+|-------|--------|
+| Linux Fundamentals | ✅ Done |
+| Windows Fundamentals | ✅ Done |
+| Cyber Security Intro & Terms | ✅ Done |
+| Web Basics | ✅ Done |
+| Windows Command Line | ✅ Done |
+| Cryptography Basics | 🔄 In progress |
+| Computer Networking | 🔄 In progress |
+| Network Packet Analysis | 🔄 In progress |
+| Bash Scripting | 🔄 In progress |
+| PowerShell Scripting | 🔄 In progress |
+
+---
+
+## What's Coming Next
+
+Once Phase 1 wraps up, I'll be adding notes and writeups for:
+
+- Network Enumeration (Nmap and friends)
+- Active Directory Attacks
+- Web Application Pentesting
+- Buffer Overflow
+- Privilege Escalation — Linux & Windows
+- CTF Writeups
+- Lab Notes from HTB machines, TryHackMe rooms, and personal lab stuff
+
+---
+
+## Repo Layout
 
 ```
 oscp-cpts-pnpt_prep/
 │
-├── fundamentals/
-│   ├── linux/
-│   ├── windows/
-│   ├── networking/
-│   ├── web-basics/
-│   └── cryptography/
-│
-├── scripting/
-│   ├── bash/
-│   └── powershell/
-│
-├── Pentesting starts/
-│   ├── Penetration Testing Process/
-│   ├── Getting Started with Penetration Testing
+├── Linux/
+├── Windows/
+├── Networking/
+├── Cryptography/
+├── OSINT/
+├── Windows Command Line/
+├── Cyber Security Terms and Basics/
+├── powershell/
+├── Penetration Testing/
+│   ├── Pentesting Process/
+│   └── Getting Started with Penetration Testing/
 │
 └── README.md
 ```
 
-> Structure will grow as more phases get added.
+---
+
+## A Quick Note
+
+Everything here is for learning in legal, authorized environments — HTB, TryHackMe, personal labs. This stuff only gets used on systems I have explicit permission to touch. Don't be that guy.
 
 ---
 
-##  Progress Tracker
-
-| Topic | Status |
-|-------|--------|
-| Linux Fundamentals | Completed |
-| Windows Fundamentals | Completed |
-| Cyber Security Intro & Terms | Completed |
-| Web Basics | Completed |
-| Cryptography Basics | Ongoing |
-| Computer Networking | Ongoing|
-| Windows Command Line | Completed |
-| Network Packet Analysis | Ongoing |
-| Bash Scripting | Ongoing |
-| PowerShell Scripting | Ongoing |
-
----
-
-## Coming Soon
-
-More phases will be added here as I finish Phase 1. Topics planned for later:
-
-- Network Enumeration (Nmap, etc.)
-- Active Directory Attacks
-- Web Application Pentesting
-- Buffer Overflow
-- Privilege Escalation (Linux & Windows)
-- CTF Writeups
-- Lab Notes (HTB Machines, TryHackMe, etc.)
-
----
-
-## Disclaimer
-
-Everything in this repo is for **educational and ethical hacking purposes only**. All practice is done in legal, authorized environments (HTB, TryHackMe, personal labs). Never use these techniques against systems you don't have explicit permission to test.
-
----
-
-*Started: 2026 | Maintained by [@cristophercervantes](https://github.com/cristophercervantes)*
+*Started 2026 · [@cristophercervantes](https://github.com/cristophercervantes)*
