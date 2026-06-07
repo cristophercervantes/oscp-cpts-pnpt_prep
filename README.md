@@ -40,7 +40,7 @@ Everything pentesting touches lives somewhere in these fundamentals. Don't rush 
 | 1 | Linux Fundamentals | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Linux/1.%20Introduction%20to%20Linux.md) |
 | 2 | Windows Fundamentals | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Windows/1.%20Introduction%20to%20Windows.md) |
 | 3 | Cyber Security Intro & Terms | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Cyber%20Security%20Terms%20and%20Basics/1.%20Basic%20Terms.md) |
-| 4 | Web Basics | [HTB Academy](https://academy.hackthebox.com) |
+| 4 | Web Basics | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Web%20Basics/1.%20Introduction%20to%20Web%20Applications/1.%20Introduction%20to%20Web%20Applications.md) |
 | 5 | Cryptography Basics | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Cryptography/1.%20Protecting%20Data%20in%20Motion%20or%20at%20Rest.md) |
 | 6 | Computer Networking | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Networking/Day-1.md) |
 | 7 | Windows Command Line | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Windows%20Command%20Line/1.%20Introduction.md) |
