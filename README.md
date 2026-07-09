@@ -69,6 +69,7 @@ This is where things get real. Phases 1 and 2 feed directly into this. I'm going
 |---|-------|----------|
 | 1 | Penetration Testing Process | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Pentesting%20Process/1.%20Preparation%20and%20Basic.md) |
 | 2 | Getting Started with Pentesting | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Getting%20Started%20with%20Penetration%20Testing/1.%20Pentesting%20Basic%201.md) |
+| 3 | Recon:Passive | [Start here →](https://github.com/cristophercervantes/oscp-cpts-pnpt_prep/blob/main/Penetration%20Testing/Recon/Passive%20Recon/1.%20Introuduction.md) |
 
 ---
 
